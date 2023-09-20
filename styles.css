@@ -1,0 +1,236 @@
+/* Navbar Styles */
+.navbar {
+    background-color: black;
+    color: #333; /* Text color */
+    padding: 10px 0;
+    text-align: right;
+    margin-left: auto; /* Push the navbar to the right */
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-item {
+    display: inline;
+    margin-left: 20px; /* Increase margin for spacing between items */
+}
+
+.navbar-item:first-child {
+    margin-left: 0;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar-item a:hover {
+    color: #82b440;
+}
+
+/* Set background image for the Home section (whole page) */
+/* Style the hero section */
+/* Style the hero section with the background image */
+#home {
+    background-image: url('https://m.media-amazon.com/images/I/516SVMQm91L.jpg'); /* Use the image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh; /* Ensure the hero section covers the entire viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+/* Override background for other sections */
+section {
+    background-image: none; /* Remove background image for all sections except #home */
+}
+
+/* Rest of the CSS remains the same */
+/* Add this CSS to your existing styles or styles.css file */
+.twitter {
+    width: 28px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+.linkdin {
+    width: 29px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+.discord {
+    width: 29px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+.stackoverflow {
+    width: 29px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+.reddit {
+    width: 29px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+.github {
+    width: 65px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+/* Add this CSS to your existing styles or styles.css file */
+.hero-content h1.text {
+    margin-bottom: 10px; /* Add margin below your name */
+}
+
+.subtitle {
+    margin-bottom: 20px; /* Add margin below the "I am a developer" line */
+}
+
+.social-link {
+    margin-top: 10px; /* Add margin above the row of icons */
+}
+
+/* Style for the profile picture */
+header img {
+    width: 100px; /* Adjust the width to your preference */
+    height: 100px; /* Adjust the height to your preference */
+    border-radius: 50%; /* Create a circular profile picture */
+    border: 2px solid #fff; /* Add a white border around the image */
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+/* CSS for the About section */
+/* Style the profile image */
+.profile-image {
+    max-width: 100px; /* Adjust the image size as needed */
+    border-radius: 50%; /* Make it round */
+    margin-right: 20px; /* Add some spacing to the right of the image */
+}
+
+#About {
+    background-image: url('https://i.imgur.com/Yj15qi8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Center-align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Ensure the section takes up the full viewport height */
+}
+
+#About h3 {
+    font-size: 24px; /* You can adjust the size as needed */
+    margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+#About h1 {
+    font-size: 36px; /* You can adjust the size as needed */
+    margin-bottom: 20px; /* Add spacing below the main heading */
+}
+
+#About h4 {
+    font-size: 18px; /* You can adjust the size as needed */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    max-width: 800px; /* Limit the width of the text */
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* code for education section */
+#Education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically within the viewport */
+    background-color: #f0f0f0;
+}
+
+.education {
+    background-image: url('https://praveen.science/assets/img/parallax/parallax-4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Center-align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Ensure the section takes up the full viewport height */
+}
+
+#Education h2 {
+    color: white;
+}
+
+#tenth-stnd {
+    color: white;
+}
+
+.centered-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.centered-section {
+    background-image: url('https://img.freepik.com/free-photo/top-view-books-with-copy-space_23-2148827187.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Center-align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Ensure the section takes up the full viewport height */
+}
+
+.contact-section {
+    background-image: url('https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Center-align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Ensure the section takes up the full viewport height */
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically within the viewport */
+    background-color: #f0f0f0;
+}
