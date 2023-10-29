@@ -51,6 +51,9 @@
     color: #fff; /* Text color */
 }
 
+ 
+ 
+
 /* Override background for other sections */
 section {
     background-image: none; /* Remove background image for all sections except #home */
@@ -62,36 +65,71 @@ section {
     width: 28px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
+     
 }
+a.twitter:hover {
+    font-size: 31px; /* Increase the font size by 20% when hovered */
+    /* You can also change other properties, like color or background, as needed */
+  }
+  a.linkdin:hover {
+    font-size: 31px; /* Increase the font size by 20% when hovered */
+    /* You can also change other properties, like color or background, as needed */
+  }
+  a.discord:hover {
+    font-size: 31px; /* Increase the font size by 20% when hovered */
+    /* You can also change other properties, like color or background, as needed */
+  }
+  a.github:hover {
+    font-size: 31px; /* Increase the font size by 20% when hovered */
+    /* You can also change other properties, like color or background, as needed */
+  }
+  a.reddit:hover {
+    font-size: 31px; /* Increase the font size by 20% when hovered */
+    /* You can also change other properties, like color or background, as needed */
+  }
+
+  a.stackoverflow:hover {
+    font-size: 31px; /* Increase the font size by 20% when hovered */
+
+    /* You can also change other properties, like color or background, as needed */
+  }
+
 
 .linkdin {
     width: 29px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
+    transition: font-size 0.2s;
+
 }
 
 .discord {
     width: 29px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
+    transition: font-size 0.2s;
+
 }
 
 .stackoverflow {
     width: 29px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
+    transition: font-size 0.2s;
 }
 
 .reddit {
     width: 29px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
+    transition: font-size 0.2s;
 }
 
 .github {
     width: 65px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
+    transition: font-size 0.2s;
 }
 
 /* Add this CSS to your existing styles or styles.css file */
@@ -106,6 +144,17 @@ section {
 .social-link {
     margin-top: 10px; /* Add margin above the row of icons */
 }
+
+
+
+
+
+
+ 
+
+
+
+
 
 /* Style for the profile picture */
 header img {
@@ -175,7 +224,12 @@ header img {
     justify-content: center;
     height: 100vh; /* Center vertically within the viewport */
     background-color: #f0f0f0;
+    color: white;
+ 
 }
+
+
+ 
 
 .education {
     background-image: url('https://praveen.science/assets/img/parallax/parallax-4.jpg');
@@ -188,15 +242,12 @@ header img {
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
     height: 100vh; /* Ensure the section takes up the full viewport height */
+    
 }
 
-#Education h2 {
-    color: white;
-}
+ 
 
-#tenth-stnd {
-    color: white;
-}
+ 
 
 .centered-section {
     display: flex;
@@ -241,3 +292,36 @@ header img {
     height: 100vh; /* Center vertically within the viewport */
     background-color: #f0f0f0;
 }
+
+#tenth-stnd {
+     
+     color: white;
+     
+     
+
+}
+.headings{
+
+        box-sizing: border-box;
+        width: 300px;
+        height: 50px;
+        background-color: rgb(165, 221, 238);
+        border: 2px solid #333;
+        border-radius: 5px;
+        padding-left: 1px;
+        padding-bottom: 0.5px;
+        padding-top: 0.5px;
+        
+    
+}
+#About h3{
+    padding-top: 4px;
+    margin-left: 25px;
+}
+ .centered-section  h1{
+      margin-bottom: 200px;
+ }
+ .contact-section  h1{
+    margin-bottom: 200px;
+}
+ 
