@@ -95,7 +95,11 @@ a.twitter:hover {
   a.reddit:hover {
     font-size: 31px; /* Increase the font size by 20% when hovered */
     /* You can also change other properties, like color or background, as needed */
-  }
+  } 
+a.leetcode:hover {
+  font-size: 31px; /* Increase the font size by 20% when hovered */
+  /* You can also change other properties, like color or background, as needed */
+}
 
   a.stackoverflow:hover {
     font-size: 31px; /* Increase the font size by 20% when hovered */
@@ -105,6 +109,13 @@ a.twitter:hover {
 
 
 .linkdin {
+    width: 29px; /* Adjust the width as needed */
+    height: auto; /* Automatically scale the height */
+    margin-right: 10px; /* Adjust the right margin as needed */
+    transition: font-size 0.2s;
+
+}
+.leetcode {
     width: 29px; /* Adjust the width as needed */
     height: auto; /* Automatically scale the height */
     margin-right: 10px; /* Adjust the right margin as needed */
