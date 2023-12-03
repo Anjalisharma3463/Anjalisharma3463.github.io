@@ -198,7 +198,7 @@ header img {
 /* Style the profile image */
 .profile-image {
     max-width: 100px; /* Adjust the image size as needed */
-    border-radius: 50%; /* Make it round */
+    border-radius: 200%; /* Make it round */
     margin-right: 20px; /* Add some spacing to the right of the image */
 }
 
